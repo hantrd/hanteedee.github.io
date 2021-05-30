@@ -94,7 +94,7 @@ p {
   color:#fff;
 }
 /* Flexbox */
-#navbar h1 {
+#navbar .logo {
   float:left;
   padding-top: 20px;
 }
