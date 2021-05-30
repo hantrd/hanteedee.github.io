@@ -3,16 +3,16 @@
 #navbar {
   display: block;
   align-items: right;
-  justify-content: space-between;
   background-color: #333;
   color: #fff;
+  overflow: auto;
   opacity: 0.8;
   width: 100%;
   height: 70px;
   position: fixed;
   top: 0px;
-  padding: 50px;
-  transition: 0.5s;
+  padding: 60px;
+  transition: 0.0s;
 }
 
 #navbar.top {
@@ -21,8 +21,8 @@
 
 #navbar a {
   color: #fff;
-  padding: 0px 20px;
-  margin:  5px;
+  padding: 5px 10px;
+  margin:  10px;
 }
 
 #navbar a:hover {
@@ -31,8 +31,7 @@
 
 #navbar ul {
   list-style: none;
-  display: block;
-  float: right;
+  display: fixed;
 }
 
 #navbar .logo {
@@ -40,7 +39,7 @@
 }
 
 #navbar {
-  background: #333;
+  background: #76cfcf;
   color:#fff;
   overflow: auto;
 }
@@ -50,33 +49,35 @@
 }
 /* Flexbox */
 #navbar .logo{
-  float:left;
-  padding-top: 20px;
+  float:center;
+  padding-top: 10px;
 }
 #navbar ul {
   list-style: none;
-  float: right;
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 10px;
+  text-align:fixed;
 }
 
 #navbar ul li {
   float: left
 }
 
-#navbar ul li a {
-  display: block;
-  padding: 20px;
-  text-align:center;
-}
+
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
-  background: #444;
+  border-bottom: #76cfcf;
   color: #76cfcf
 }
 
 /* Animation */
 :root {
-  --page-1-color: steelblue;
+  --page-1-color: #76cfcf;
   --page-2-color: tan;
   --page-3-color: teal;
   --page-4-color: slateblue;
