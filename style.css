@@ -147,7 +147,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('/img/showcase.jpg');
+  background: url('/img/showcase.jpg') no-repeat;
   min-height: 100%;
 }
 #home-info .info-content {
