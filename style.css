@@ -69,7 +69,7 @@ p {
 
 .bg-primary {
   background:#76cfcf;
-  color: #333
+  color: #333;
 }
 
 .clr {
@@ -94,7 +94,7 @@ p {
   color:#fff;
 }
 /* Flexbox */
-#navbar .logo {
+#navbar .logo{
   float:left;
   padding-top: 20px;
 }
