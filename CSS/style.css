@@ -123,7 +123,7 @@ p {
   padding-top: 170px;
 }
 #showcase.showcase-content h1{
-  font-size: :60px;
+  font-size: 60px;
   line-height:1.2em;
 }
 
@@ -140,7 +140,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('../img/photo-1.jpg')no-repeat;
+  background: url('../img/showcase.jpg');
   min-height: 100%;
 }
 #home-info .info-content {
